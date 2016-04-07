@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class App\Chat | HelpdeskAPI</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-App.html">
+						App<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-App.Http.html">
+						Http<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-App.Http.Controllers.html">
+						Controllers					</a>
+
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.Bug.html">Bug</a></li>
+				<li><a href="class-App.BugAttachment.html">BugAttachment</a></li>
+				<li class="active"><a href="class-App.Chat.html">Chat</a></li>
+				<li><a href="class-App.Message.html">Message</a></li>
+				<li><a href="class-App.Project.html">Project</a></li>
+				<li><a href="class-App.User.html">User</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-App.html" title="Summary of App"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Chat</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Illuminate\Database\Eloquent\Model
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>App\Chat</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-App.html">App</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-App.Chat.html#8-60" title="Go to source code">app/Chat.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="medewerker" id="_medewerker">
+
+		<td class="attributes"><code>
+			 public 
+
+			Illuminate\Database\Eloquent\Relations\BelongsTo
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_medewerker">#</a>
+		<code><a href="source-class-App.Chat.html#11-17" title="Go to source code">medewerker</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Illuminate\Database\Eloquent\Relations\BelongsTo
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="klant" id="_klant">
+
+		<td class="attributes"><code>
+			 public 
+
+			Illuminate\Database\Eloquent\Relations\BelongsTo
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_klant">#</a>
+		<code><a href="source-class-App.Chat.html#19-25" title="Go to source code">klant</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Illuminate\Database\Eloquent\Relations\BelongsTo
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendMessage" id="_sendMessage">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendMessage">#</a>
+		<code><a href="source-class-App.Chat.html#27-48" title="Go to source code">sendMessage</a>( <span> <var>$afzender_id</var></span>, <span> <var>$klant_id</var></span>, <span> <var>$medewerker_id</var></span>, <span> <var>$bug_id</var></span>, <span> <var>$project_id</var></span>, <span> <var>$msg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$afzender_id</var></dt>
+					<dd></dd>
+					<dt><var>$klant_id</var></dt>
+					<dd></dd>
+					<dt><var>$medewerker_id</var></dt>
+					<dd></dd>
+					<dt><var>$bug_id</var></dt>
+					<dd></dd>
+					<dt><var>$project_id</var></dt>
+					<dd></dd>
+					<dt><var>$msg</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteChatFeedPerBug" id="_deleteChatFeedPerBug">
+
+		<td class="attributes"><code>
+			 public static
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteChatFeedPerBug">#</a>
+		<code><a href="source-class-App.Chat.html#50-57" title="Go to source code">deleteChatFeedPerBug</a>( <span> <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		HelpdeskAPI API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
